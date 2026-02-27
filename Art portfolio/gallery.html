@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikasdhiman.Arts — Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1 class="logo">Vikasdhiman.Arts</h1>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="gallery.html" class="active">Works</a>
+        <a href="custom-sketch.html">Order Now</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="social">
+        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+      </div>
+    </aside>
+
+    <!-- Main Gallery -->
+    <main class="gallery-content">
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/art1.jpg" alt="Abstract Landscape" class="gallery-img">
+          <p>Abstract Landscape</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/art2.jpg" alt="Golden Dreams" class="gallery-img">
+          <p>Golden Dreams</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/art3.jpg" alt="Nature Flow" class="gallery-img">
+          <p>Nature Flow</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/art4.jpg" alt="Urban Silence" class="gallery-img">
+          <p>Urban Silence</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal (Fullscreen Image) -->
+  <div id="fullscreenModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="fullImage">
+    <div id="caption"></div>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+/* ---------- Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ---------- Body ---------- */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar {
+  width: 220px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #eee;
+  background-color: #fff;
+}
+
+.logo {
+  text-align: left;
+}
+
+.logo h2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar nav ul li {
+  margin: 12px 0;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.sidebar nav ul li a:hover,
+.sidebar nav ul li a.active {
+  color: #000;
+  font-weight: 600;
+}
+
+.social img {
+  width: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.social img:hover {
+  opacity: 1;
+}
+
+/* ---------- Contact Section ---------- */
+.contact-section {
+  flex: 1;
+  padding: 60px 100px;
+}
+
+.contact-section h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  max-width: 650px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  max-width: 650px;
+}
+
+.contact-form label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.contact-form span {
+  color: #999;
+  font-size: 13px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #111;
+  outline: none;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.name-fields {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  background-color: #111;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .sidebar nav ul {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+  }
+
+  .sidebar nav ul li {
+    margin: 0;
+  }
+
+  .contact-section {
+    padding: 40px 20px;
+  }
+
+  .name-fields {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .contact-section h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .contact-section p {
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+
+  .contact-form {
+    margin: 0 auto;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sidebar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo h2 {
+    text-align: center;
+  }
+}

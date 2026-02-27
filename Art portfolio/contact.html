@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Vikasdhiman.Arts</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <h2>Vikasdhiman.Arts</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="art.html">Works</a></li>
+          <li><a href="custom-sketch.html">Order Now</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+       <div class="social">
+        <a href="https://www.instagram.com/vikasdhiman.arts?igsh=MTBmdnppZnN3enNqZw=="><img src="icons/instagram.svg" alt="Instagram"></a>
+      </div>
+    
+    </aside>
+
+    <!-- Contact Section -->
+    <main class="contact-section">
+      <h1>Contact</h1>
+      <p>
+        For all pricing and booking inquiries, please fill out the form below. 
+        Please include as much relevant information as possible — for example, 
+        the location of the project, number of images needed, intended usage of 
+        the images, and timeframe for completion. I look forward to hearing from you.
+      </p>
+
+      <form action="https://formspree.io/f/yourFormID" method="POST" class="contact-form">
+        <div class="name-fields">
+          <div>
+            <label>First Name <span>(required)</span></label>
+            <input type="text" name="first_name" required>
+          </div>
+          <div>
+            <label>Last Name</label>
+            <input type="text" name="last_name">
+          </div>
+        </div>
+
+        <label>Email Address <span>(required)</span></label>
+        <input type="email" name="_replyto" required>
+
+        <label>Subject <span>(required)</span></label>
+        <input type="text" name="subject" required>
+
+        <label>Message <span>(required)</span></label>
+        <textarea name="message" rows="6" required></textarea>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+    </main>
+  </div>
+
+</body>
+</html>
