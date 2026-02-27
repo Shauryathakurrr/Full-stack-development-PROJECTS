@@ -22,13 +22,13 @@ The goal of this project is to practice **full stack development and build a sca
 - HTML
 - CSS
 - JavaScript
-- [React / Next.js / Vue]
+- [React / Next.js]
 
 ### Backend
 - [Node.js / Express]
 
 ### Database
-- [MongoDB / MySQL / PostgreSQL]
+- [MongoDB]
 
 ### Tools
 - Git & GitHub
