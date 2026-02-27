@@ -103,16 +103,6 @@ JWT_SECRET=your_secret_key
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of your application here.
-
-```
-/screenshots/homepage.png
-/screenshots/dashboard.png
-```
-
----
 
 ## 🚀 Future Improvements
 
@@ -134,11 +124,6 @@ Contributions are welcome!
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
 
 ## 👨‍💻 Author
 
